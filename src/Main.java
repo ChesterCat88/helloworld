@@ -1,6 +1,102 @@
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Привет Мир");
-        System.out.println("Hello Word");
+        byte M = 2;
+        System.out.println("Значение переменной M с типом byte равно " + M);
+        short N = 150;
+        System.out.println("Значение переменной N с типом short равно " + N);
+        int B = 1000;
+        System.out.println("Значение переменной B с типом int равно " + B);
+        long V = 10000000;
+        System.out.println("Значение переменной V с типом long равно " + V);
+        float C = 3.14f;
+        System.out.println("Значение переменной C с типом float равно " + C);
+        double X = 3.123456789d;
+        System.out.println("Значение переменной X с типом double равно " + X);
+        float one = 27.12f;
+        long two = 987678965549L;
+        var three = "2,786";
+        int four = 569;
+        short five = -159;
+        short six = 27897;
+        byte seven = 67;
+        byte LudaStudent = 23;
+        byte AnnaStudent = 27;
+        byte KateStudent = 30;
+        int AllStudent = LudaStudent + AnnaStudent + KateStudent;
+        int paper = 480;
+        int paperForStudent = paper / AllStudent;
+        System.out.println("На каждого ученика расчитано " + paperForStudent + " листов бумаги");
+        byte bottleMinute = 16 / 2;
+        int bottleTwentyMinute = bottleMinute * 20;
+        System.out.println("За 20 минут машина произвела " + bottleTwentyMinute + " штук бутылок");
+        int bottleInHour = bottleMinute * 60;
+        int bottleDay = bottleInHour * 24;
+        System.out.println("За сутки машина произвела " + bottleDay + " штук бутылок");
+        int bottleThreeDay = bottleDay * 3;
+        System.out.println("За 3 дня машина произвела " + bottleThreeDay + " штук бутылок");
+        int bottleMonth = bottleDay * 30;
+        System.out.println("За месяц машина произвела " + bottleMonth + " штук бутылок");
+        byte allJar = 120;
+        byte whiteJarOnClass = 2;
+        byte brownJarOnClass = 4;
+        int allClass = allJar / (whiteJarOnClass + brownJarOnClass);
+        int allWhiteJar = allClass * whiteJarOnClass;
+        int allBrownJar = allClass * brownJarOnClass;
+        System.out.println("В школе где " + allClass + " классов, нужно " + allWhiteJar + " банок белой краски и "
+                + allBrownJar + " банок коричневой краски");
+        byte weightPortionBanana = 80;
+        byte weightPortionMilk = 100;
+        byte weightPortionIce = 100;
+        byte weightPortionEggs = 70;
+        int weightFormulaGram = (weightPortionIce * 2) + (weightPortionEggs * 4) + (weightPortionBanana * 5) +
+                (weightPortionMilk * 2);
+        System.out.println(weightFormulaGram);
+        float weightFormulaKilo = (float) weightFormulaGram / 1000;
+        System.out.println(weightFormulaKilo);
+        short totalWeight = 7 * 1000;
+        short loseWeightFirst = 250;
+        short loseWeightSecond = 500;
+        short dayToLoseFirst = (short) (totalWeight / loseWeightFirst);
+        short daToLoseSecond = (short) (totalWeight / loseWeightSecond);
+        System.out.println(dayToLoseFirst);
+        System.out.println(daToLoseSecond);
+        short dayMiddle = (short) ((dayToLoseFirst + daToLoseSecond) / 2);
+        System.out.println(dayMiddle);
+        int moneyMasha = 67760;
+        int moneyDan = 83690;
+        int moneyKrist = 76230;
+        int moneyMashaYear = moneyMasha * 12;
+        int moneyDanYear = moneyDan * 12;
+        int moneyKristYear = moneyKrist * 12;
+        float moneyMashaPercent = (float) (moneyMasha * 0.1) + moneyMasha;
+        float moneyMashaNewYear = moneyMashaPercent * 12;
+        float moneyMashaDiff = moneyMashaNewYear - moneyMashaYear;
+        System.out.println("Маша теперь получает " + moneyMashaPercent + " . Годовой доход вырос на " + moneyMashaDiff + " рублей");
+        float moneyDanPercent = (float) (moneyDan * 0.1) + moneyDan;
+        float moneyDanNewYear = moneyDanPercent * 12;
+        float moneyDanDiff = moneyDanNewYear - moneyDanYear;
+        System.out.println("Денис теперь получает " + moneyDanPercent + " . Годовой доход вырос на " + moneyDanDiff + " рублей");
+        float moneyKristPercent = (float) (moneyKrist * 0.1) + moneyKrist;
+        float moneyKristNewYear = moneyKristPercent * 12;
+        float moneyKristDiff = moneyKristNewYear - moneyKristYear;
+        System.out.println("Кристина теперь получает " + moneyKristPercent + " . Годовой доход вырос на " + moneyKristDiff + " рублей");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
