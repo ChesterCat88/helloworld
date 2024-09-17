@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Значение переменной X с типом double равно " + X);
         float one = 27.12f;
         long two = 987678965549L;
-        var three = "2,786";
+        float three = 2.786f;
         int four = 569;
         short five = -159;
         short six = 27897;
@@ -82,21 +82,5 @@ public class Main {
         float moneyKristNewYear = moneyKristPercent * 12;
         float moneyKristDiff = moneyKristNewYear - moneyKristYear;
         System.out.println("Кристина теперь получает " + moneyKristPercent + " . Годовой доход вырос на " + moneyKristDiff + " рублей");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
