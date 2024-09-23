@@ -81,6 +81,6 @@ public class Main {
         float moneyKristPercent = (float) (moneyKrist * 0.1) + moneyKrist;
         float moneyKristNewYear = moneyKristPercent * 12;
         float moneyKristDiff = moneyKristNewYear - moneyKristYear;
-        System.out.println("Кристина теперь получает " + moneyKristPercent + " . Годовой доход вырос на целых" + moneyKristDiff + " рублей");
+        System.out.println("Кристина теперь получает " + moneyKristPercent + " . Годовой дход вырос на целых" + moneyKristDiff + " рублей");
     }
 }
